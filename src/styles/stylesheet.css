@@ -1,0 +1,87 @@
+body {
+    /* Linear gradient from purple to blue */
+    background: linear-gradient(to bottom, #c1b7ff, #b3ceeb);
+    /* Ensures background covers the entire viewport */
+    height: 100vh;
+    margin: 0;
+}
+
+  
+ul {
+    list-style-type: none;
+}
+
+
+/* stylesheet.css */
+.Link {
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/*Header CSS */
+.header-container {
+    text-align: center;
+}
+
+.logo {
+    font-size: 100px;
+    margin-bottom: 20px;
+    background: -webkit-linear-gradient( #3f94b5, #aa6bf6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #570e9f74;
+    color: #fff;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.nav-link:hover {
+    background-color: #0056b3;
+}
+
+.about, .contact, .home {
+    text-align: center;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.aboutInfo, .contactInfo, .homeInfo{
+    text-align: center;
+    font-size: 20px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.coolStuff {
+    text-align: center;
+    font-size: 20px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+/* stylesheet.css */
+.eventLinks {
+    display: block; /* Ensures links take up full width */
+    text-align: center; /* Centers the link text */
+    margin: 10px auto; /* Adds top and bottom margin and centers horizontally */
+    font-size: 25px;
+  
+}
+
+.eventLinks:hover {
+    color: #007bff;
+}
+
